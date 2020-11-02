@@ -14,4 +14,5 @@ public class CacheLogger implements CacheEventListener<Object, Object> {
                 cacheEvent.getKey(), cacheEvent.getType(), cacheEvent.getOldValue(),
                 cacheEvent.getNewValue());
     }
+    q
 }
